@@ -105,14 +105,18 @@ Python Parallel Text Handling Processor
 
 ## 🔷 Technologies Used
 
-* Python
-* Streamlit
-* SQLite
-* Pandas
-* Matplotlib
-* ReportLab
-* Multiprocessing
-* Threading
+
+| Component     | Technology               |
+| ------------- | ------------------------ |
+| Language      | Python                   |
+| DB            | SQLite                   |
+| UI            | Streamlit                |
+| Parallelism   | ThreadPoolExecutor       |
+| Email         | SMTP                     |
+| Reports       | ReportLab                |
+| Visualization | Pandas                   |
+
+---
 
 ## 🔷 Installation
 
