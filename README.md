@@ -5,7 +5,7 @@ The system demonstrates how multithreading and multiprocessing can improve text 
 This project is implemented using Python, Streamlit, SQLite, and Pandas.
 # Python Parallel Text Handling Processor
 
-🔷 ## Key Features
+ ## 🔷 Key Features
 
 ### 1. Text Processing System
 
@@ -78,7 +78,7 @@ Generated reports can be automatically sent via **email with PDF attachment**.
 
 ---
 
-## System Architecture
+## 🔷 System Architecture
 
 The project follows a **modular architecture**:
 
@@ -103,7 +103,7 @@ Python Parallel Text Handling Processor
 └── README.md
 ```
 
-## Technologies Used
+## 🔷 Technologies Used
 
 * Python
 * Streamlit
@@ -114,7 +114,7 @@ Python Parallel Text Handling Processor
 * Multiprocessing
 * Threading
 
-## Installation
+## 🔷 Installation
 
 Clone the repository:
 
@@ -129,7 +129,7 @@ Install dependencies:
 pip install -r requirements.txt
 ```
 
-## Running the Application
+## 🔷 Running the Application
 
 Start the Streamlit application:
 
@@ -139,7 +139,7 @@ streamlit run app.py
 
 The application will open in your browser.
 
-## Workflow
+## 🔷 Workflow
 
 1. Upload a `.txt` file
 2. Configure chunk size
@@ -155,7 +155,7 @@ The application will open in your browser.
 
 ---
 
-## Performance Optimization Implemented
+## 🔷 Performance Optimization Implemented
 
 * Chunk-based text processing
 * Thread-based parallel execution
@@ -167,7 +167,7 @@ These optimizations allow the system to handle **large text datasets efficiently
 
 ---
 
-## Future Improvements
+## 🔷 Future Improvements
 
 Possible enhancements include:
 
