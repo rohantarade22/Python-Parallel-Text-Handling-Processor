@@ -5,7 +5,7 @@ The system demonstrates how multithreading and multiprocessing can improve text 
 This project is implemented using Python, Streamlit, SQLite, and Pandas.
 # Python Parallel Text Handling Processor
 
-## Key Features
+🔷 ## Key Features
 
 ### 1. Text Processing System
 
