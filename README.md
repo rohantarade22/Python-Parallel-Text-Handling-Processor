@@ -9,7 +9,7 @@ This project is implemented using Python, Streamlit, SQLite, and Pandas.
 
 ### 1. Text Processing System
 
-* Upload `.txt` files for processing
+* Upload `.txt`, `.csv`, `.xlsx` files
 * Configurable **chunk-based text processing**
 * Character-based chunking for large text handling
 
@@ -151,7 +151,7 @@ The application will open in your browser.
    * Database storage
 5. View analytics on the dashboard
 6. Generate and export a PDF report
-7. Optionally send report via email
+7. send report via email(dummy)
 
 ---
 
@@ -190,4 +190,4 @@ https://github.com/rohantarade22/Python-Parallel-Text-Handling-Processor
 
 ## License
 
-This project is developed for educational and research purposes.
+
