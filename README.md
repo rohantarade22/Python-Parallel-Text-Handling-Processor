@@ -165,7 +165,17 @@ The system uses a product reviews dataset containing user-generated text data.
 The dataset includes mixed sentiment reviews (positive, negative, and neutral) to simulate real-world scenarios.
 
 ---
+
 ## 🔷 Parallel Processing Logic
+
+Parallel processing is a technique where multiple tasks are executed at the same time instead of one after another. It improves performance by utilizing system resources efficiently.
+In this system, the input text is divided into smaller chunks, and each chunk is processed independently. Instead of processing chunks sequentially, the system uses:
+Threading → runs multiple tasks simultaneously using threads (useful for faster execution)
+Multiprocessing → uses multiple CPU cores to process data in parallel
+
+This approach reduces total processing time and makes the system efficient for handling large datasets.
+
+---
 
 ## 🔷 Sentiment Analysis Approach
 
@@ -180,6 +190,29 @@ The system uses a rule-based sentiment analysis technique:
     - Neutral → score = 0
 
 ---       
+
+## 🔷 Performance Comparison
+
+The system compares execution time of:
+* Sequential Processing
+* Thread-based Processing
+* Multiprocessing
+
+Parallel approaches significantly reduce execution time compared to sequential processing, especially for large datasets.
+
+---
+
+## 🔷 Edge Cases Handled
+
+The system is designed to handle various edge cases to ensure reliability and smooth execution:
+
+* **Empty Input** : The system checks if the uploaded file contains data. If the input is empty, processing is stopped and the user is notified.
+* **Invalid Data**:If an unsupported format is uploaded, the system displays an error message.
+* **Repeated Words** :The sentiment scoring logic handles repeated words correctly by applying the same scoring rules without causing duplication errors.
+* **Large Dataset** : Large text data is divided into smaller chunks using chunking, and processed using parallel techniques (threading and multiprocessing) to         avoid performance issues.
+  
+---
+
 ## 🔷 Performance Optimization Implemented
 
 * Chunk-based text processing
