@@ -114,7 +114,7 @@ Python Parallel Text Handling Processor
 | Parallelism   | ThreadPoolExecutor       |
 | Email         | SMTP                     |
 | Reports       | ReportLab                |
-| Visualization | Pandas                   |
+| Visualization | Matplotlib , Pandas                   |
 
 ---
 
@@ -155,10 +155,31 @@ The application will open in your browser.
    * Database storage
 5. View analytics on the dashboard
 6. Generate and export a PDF report
-7. send report via email(dummy)
+7. send report via email(Simulation Mode)
 
 ---
 
+## 🔷 Dataset Details
+
+The system uses a product reviews dataset containing user-generated text data.
+The dataset includes mixed sentiment reviews (positive, negative, and neutral) to simulate real-world scenarios.
+
+---
+## 🔷 Parallel Processing Logic
+
+## 🔷 Sentiment Analysis Approach
+
+The system uses a rule-based sentiment analysis technique:
+
+* Predefined positive and negative word dictionaries
+* Each word has an assigned weight (score)
+* Final sentiment score is calculated by summing word scores
+* Classification is based on score:
+    - Positive → score > 0
+    - Negative → score < 0
+    - Neutral → score = 0
+
+---       
 ## 🔷 Performance Optimization Implemented
 
 * Chunk-based text processing
