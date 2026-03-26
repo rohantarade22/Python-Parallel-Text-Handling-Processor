@@ -248,4 +248,4 @@ https://github.com/rohantarade22/Python-Parallel-Text-Handling-Processor
 
 ## License
 
-This project is licensed under the MIT License © 2026 Rohan Tarade.
+This project is licensed under the copyright © 2026 Vidzai Digital.
