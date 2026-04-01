@@ -237,7 +237,7 @@ Possible enhancements include:
 
 ---
 
-## Author
+## 🔷 Author
 
 Rohan Tarade
 
@@ -246,10 +246,10 @@ https://github.com/rohantarade22/Python-Parallel-Text-Handling-Processor
 
 ---
 
-## License
+## 🔷 License
 
 This project is licensed under the copyright © 2026 Vidzai Digital.
 
-## Project Demo Video
+## 🔷 Project Demo Video
 
 https://youtu.be/yYrSm8stPJI
